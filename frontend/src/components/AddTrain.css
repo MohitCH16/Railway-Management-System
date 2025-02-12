@@ -1,0 +1,47 @@
+.add-train {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-train h2 {
+    text-align: center;
+  }
+  
+  .add-train form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-train input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-train button {
+    padding: 0.5rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-train button:hover {
+    background-color: #555;
+  }
+  
+  .message{
+    text-align: center;
+    margin-top: 1rem;
+    color: green;
+    font-weight: bold;
+  }
+
+  .message.error {
+    color: red;
+  }

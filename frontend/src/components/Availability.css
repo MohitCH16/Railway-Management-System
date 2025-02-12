@@ -1,0 +1,116 @@
+.availability {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .availability h2 {
+    text-align: center;
+  }
+  
+  .availability form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .availability input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .availability button {
+    padding: 0.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .availability button:hover {
+    background-color: #0056b3;
+  }
+  
+  .availability ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .availability li {
+    background: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .availability li button {
+    background-color: #28a745;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .availability li button:hover {
+    background-color: #218838;
+  }
+  
+
+
+
+
+/* .availability {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .availability h2 {
+    text-align: center;
+  }
+  
+  .availability form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .availability input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .availability button {
+    padding: 0.5rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .availability button:hover {
+    background-color: #555;
+  }
+  
+  .availability ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .availability li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+  } */
